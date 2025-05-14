@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "atm_otomasyonu": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\koseb\\source\\repos\\atm_otomasyonu\\bin\\Debug"
+    }
+  }
+}
