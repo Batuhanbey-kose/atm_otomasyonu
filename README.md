@@ -1,6 +1,6 @@
 ﻿
 
-## Blocks of code
+## Kod Bloğu
 
 ```
 private static readonly string connectionString = "Server=BATUHANBEY;Database=DBATM;Trusted_Connection=True;TrustServerCertificate=True";
