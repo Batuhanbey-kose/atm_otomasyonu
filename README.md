@@ -76,7 +76,7 @@ git clone https://github.com/kullaniciadi/atm-otomasyon.git
 📌 **Bağlantı dizesi konumu:**
 `DatabaseHelper` sınıfı içindeki `SqlConnection` nesnesinin tanımlandığı yer.
 
-[![Image](![Image](https://github.com/user-attachments/assets/3e94bfa2-e1ff-4b21-a157-ada3913b6296))
+![Image](https://github.com/user-attachments/assets/3e94bfa2-e1ff-4b21-a157-ada3913b6296)
 
 #### 4️⃣ Projeyi Açın ve Çalıştırın
 
