@@ -6,12 +6,13 @@ Arka planda **SQL Server** kullanılarak veriler yönetilmekte ve **ADO.NET** il
 ---
 
 ## 📋 İçerik Tablosu
-- [🌟 Özellikler](#ozellikler)  
-- [🛠️ Kullanılan Teknolojiler](#kullanilan-teknolojiler)    
-- [📝 Kurulum ve Kullanım](#kurulum-ve-kullanim)
-  - [⚙️ Gereksinimler](#geriskenimler)
-  - [🚀 Adımlar](#adimlar)
-- [🤝 İletişim ve Katkıda Bulunma](#iletisim-ve-katkida-bulunma)
+- [🌟 Özellikler](#-özellikler)  
+- [🛠️ Kullanılan Teknolojiler](#-kullanilan-teknolojiler)    
+- [📝 Kurulum ve Kullanım](#-kurulum-ve-kullanim)
+  - [⚙️ Gereksinimler](#-gereksinimler)
+  - [🚀 Adımlar](#-adimlar)
+- [🤝 İletişim ve Katkıda Bulunma](#-iletisim-ve-katkida-bulunma)
+
 
 
 ---
