@@ -1,4 +1,4 @@
-﻿# 💳 ATM Otomasyon Sistemi  
+# 💳 ATM Otomasyon Sistemi  
 Bu proje, **.NET 8.0** ile geliştirilmiş bir **Windows Form App** uygulamasıdır.  
 Kullanıcıların temel bankacılık işlemlerini kolayca yapabileceği, kullanıcı dostu arayüze sahip bir **ATM otomasyon sistemidir**.  
 Arka planda **SQL Server** kullanılarak veriler yönetilmekte ve **ADO.NET** ile veritabanı bağlantısı sağlanmaktadır.
@@ -71,26 +71,26 @@ git clone https://github.com/kullaniciadi/atm-otomasyon.git
 
 #### 3️⃣ Bağlantı Dizesini Ekleyin
 
-`DatabaseHelper.cs` dosyasındaki bağlantı dizesi alanını kendi veritabanı bilgilerinize göre güncelleyin.
+ `DatabaseHelper.cs` dosyasındaki bağlantı dizesi alanını kendi veritabanı bilgilerinize göre güncelleyin.
 
-📌 **Bağlantı dizesi konumu:**
-`DatabaseHelper` sınıfı içindeki `SqlConnection` nesnesinin tanımlandığı yer.
+   📌 **Bağlantı dizesi konumu:**
+   `DatabaseHelper` sınıfı içindeki `SqlConnection` nesnesinin tanımlandığı yer.
 
 ![Image](https://github.com/user-attachments/assets/3e94bfa2-e1ff-4b21-a157-ada3913b6296)
 
 #### 4️⃣ Projeyi Açın ve Çalıştırın
 
-Tüm adımlar tamamlandıktan sonra F5 tuşuna basarak projeyi başlatabilirsiniz.
+- Tüm adımlar tamamlandıktan sonra F5 tuşuna basarak projeyi başlatabilirsiniz.
 Proje üzerinden testler yapabilir ya da geliştirme yapabilirsiniz.
 
 ---
 ## 🤝 İletişim ve Katkıda Bulunma
 
-🐛 Hata bildirimleri için [Issues](https://github.com/Batuhanbey-kose/atm_otomasyonu/issues) sayfasını kullanın
+* 🐛 Hata bildirimleri için [Issues](https://github.com/Batuhanbey-kose/atm_otomasyonu/issues) sayfasını kullanın
 
-💡 Yeni özellik önerileri için [Pull Request](https://github.com/Batuhanbey-kose/atm_otomasyonu/pulls) gönderin
+* 💡 Yeni özellik önerileri için [Pull Request](https://github.com/Batuhanbey-kose/atm_otomasyonu/pulls) gönderin
 
-📧 İletişim: kosebatuhanbey@gmail.com
+* 📧 İletişim: kosebatuhanbey@gmail.com
 
 ---
 <p align="center">
