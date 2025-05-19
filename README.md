@@ -1,10 +1,97 @@
-﻿
+﻿# 💳 ATM Otomasyon Sistemi  
+Bu proje, **.NET 8.0** ile geliştirilmiş bir **Windows Form App** uygulamasıdır.  
+Kullanıcıların temel bankacılık işlemlerini kolayca yapabileceği, kullanıcı dostu arayüze sahip bir **ATM otomasyon sistemidir**.  
+Arka planda **SQL Server** kullanılarak veriler yönetilmekte ve **ADO.NET** ile veritabanı bağlantısı sağlanmaktadır.
 
-## Kod Bloğu
+---
 
+## 📋 İçerik Tablosu
+- [🌟 Özellikler](#ozellikler)  
+- [🛠️ Kullanılan Teknolojiler](#kullanilan-teknolojiler)    
+- [📝 Kurulum ve Kullanım](#kurulum-ve-kullanim)
+  - [⚙️ Gereksinimler](#geriskenimler)
+  - [🚀 Adımlar](#adimlar)
+- [🤝 İletişim ve Katkıda Bulunma](#iletisim-ve-katkida-bulunma)
+
+
+---
+
+## 🌟 Özellikler
+- 💰 Para yatırma, çekme ve transfer işlemleri  
+- 📊 Hesap hareketlerini izleme  
+- 🔍 Bakiye sorgulama  
+- 🆕 Yeni hesap oluşturma  
+- 🔐 Kullanıcı girişi ve şifre değiştirme  
+- 🖥️ Kullanıcı dostu Windows Forms arayüzü  
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+- 👨‍💻 Programlama Dili: C# (.NET 8.0)  
+- 🪟 Arayüz: Windows Forms (Form Ekranları)  
+- 🗄️ Veritabanı: SQL Server (Microsoft SQL Server Management Studio ile)  
+- 🔌 Veritabanı Bağlantısı: ADO.NET  
+- 🖥️ Geliştirme Ortamı: Visual Studio Code  
+
+---
+
+## 📝 Kurulum ve Kullanım 
+
+### ⚙️ Gereksinimler
+- .NET 8.0 SDK  
+- Microsoft SQL Server ve SQL Server Management Studio (SSMS)  
+- Visual Studio 2022  
+
+### 🚀 Adımlar
+
+#### 0️⃣ Projeyi İndirin  
+Aşağıdaki kodu terminalde çalıştırdıktan sonra github repomu bilgisayarınıza indirmiş olucaksınız.
+``` bash
+git clone https://github.com/kullaniciadi/atm-otomasyon.git
 ```
-private static readonly string connectionString = "Server=BATUHANBEY;Database=DBATM;Trusted_Connection=True;TrustServerCertificate=True";
 
-```
-## Önemli Not
-Burada kendi database bilgilerinizi kullanın
+#### 1️⃣ Visual Studio 2022 ile Açın (🟪)
+
+- Visual Studio’yu açın.  
+- `Open a project or solution` seçeneğine tıklayın.  
+- Klonladığınız klasördeki `atm_otomasyonu.csproj` dosyasını seçin.  
+- Üst menüden sırasıyla `Build > Clean Solution` ardından `Build > Rebuild Solution` yapın.  
+- Projeyi başlatmak için `F5` tuşuna basın.
+
+
+#### 2️⃣ Veritabanını Oluşturun
+
+`Hesaplar`, `Transfera` gibi sınıfları takip ederek SQL Server üzerinde bir veritabanı oluşturun.
+
+> 📝 **Not:** Bu adım ileride güncellenip otomatik hale getirilecektir şuanda kodu takip ederek olusturursanız sevinirim.
+
+1. SQL Server Management Studio (SSMS)'yi açın.  
+2. `ATM_Database` adında yeni bir veritabanı oluşturun.
+
+#### 3️⃣ Bağlantı Dizesini Ekleyin
+
+`DatabaseHelper.cs` dosyasındaki bağlantı dizesi alanını kendi veritabanı bilgilerinize göre güncelleyin.
+
+📌 **Bağlantı dizesi konumu:**
+`DatabaseHelper` sınıfı içindeki `SqlConnection` nesnesinin tanımlandığı yer.
+
+[![Image](https://i.hizliresim.com/8hhdcxn.png)](https://hizliresim.com/8hhdcxn)
+
+#### 4️⃣ Projeyi Açın ve Çalıştırın
+
+Tüm adımlar tamamlandıktan sonra F5 tuşuna basarak projeyi başlatabilirsiniz.
+Proje üzerinden testler yapabilir ya da geliştirme yapabilirsiniz.
+
+---
+## 🤝 İletişim ve Katkıda Bulunma
+
+🐛 Hata bildirimleri için [Issues](https://github.com/Batuhanbey-kose/atm_otomasyonu/issues) sayfasını kullanın
+
+💡 Yeni özellik önerileri için [Pull Request](https://github.com/Batuhanbey-kose/atm_otomasyonu/pulls) gönderin
+
+📧 İletişim: kosebatuhanbey@gmail.com
+
+---
+<p align="center">
+  <small>Built with ❤️ by <strong>BBK</strong>
+</p>
