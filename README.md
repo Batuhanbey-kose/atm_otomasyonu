@@ -94,5 +94,5 @@ Proje üzerinden testler yapabilir ya da geliştirme yapabilirsiniz.
 
 ---
 <p align="center">
-  <small>Built with ❤️ by <strong>BBK</strong>
+  <small>Built with ❤️ by <strong>Batuhanbey Köse</strong>
 </p>
