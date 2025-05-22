@@ -62,9 +62,7 @@ git clone https://github.com/kullaniciadi/atm-otomasyon.git
 
 #### 2️⃣ Veritabanını Oluşturun
 
-`Hesaplar`, `Transfera` gibi sınıfları takip ederek SQL Server üzerinde bir veritabanı oluşturun.
-
-> 📝 **Not:** Bu adım ileride güncellenip otomatik hale getirilecektir şuanda kodu takip ederek olusturursanız sevinirim.
+`Hesaplar`, `Transfera` gibi png leri takip ederek SQL Server üzerinde bir veritabanı oluşturun.
 
 1. SQL Server Management Studio (SSMS)'yi açın.  
 2. `ATM_Database` adında yeni bir veritabanı oluşturun.
